@@ -26,15 +26,6 @@ Por ser um projeto de front-end estático, não há necessidade de instalação 
 
 1. Clone este repositório para a sua máquina local.
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
+3. Ou acesse [Dev Café Semântico](https://dgsilvino.github.io/DevCafeSemantico)
 
-**Dica:** Para uma melhor experiência de desenvolvimento, utilize a extensão "Live Server" no Visual Studio Code.
 
-## 💡 Próximos Passos e Melhorias Futuras
-
-Embora o projeto esteja visualmente completo, os próximos passos para agregar ainda mais valor seriam a adição de interatividade com JavaScript:
-
-- [ ] **Menu Hambúrguer:** Implementar um menu interativo para a navegação em dispositivos móveis.
-- [ ] **Header "Sticky":** Fazer com que o cabeçalho mude de estilo ou fixe no topo da página após o scroll do usuário.
-- [ ] **Animações de Scroll:** Adicionar animações sutis para que os elementos das seções apareçam na tela conforme o usuário rola a página.
-
-# 
