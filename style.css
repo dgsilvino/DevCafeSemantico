@@ -164,7 +164,7 @@ section {
 /* ------------------- */
 .home-container {
   min-height: 100vh;
-  background-image: url("/img/home-img.jpg");
+  background-image: url("img/home-img.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
