@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Café Semântico</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="/img/logo.png" alt="Logotipo Dev Café" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Avaliações</a>
+        <a href="#address">Endereço</a>
+      </nav>
+
+      <div class="icons">
+        <a href="#" aria-label="Pesquisar">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon"
+          >
+            <path
+              d="M18.031 16.617a9.5 9.5 0 1 1-1.414-1.414l3.535 3.535a1 1 0 0 1-1.414 1.414l-3.535-3.535ZM11.5 19a7.5 7.5 0 1 0 0-15a7.5 7.5 0 0 0 0 15Z"
+            />
+          </svg>
+        </a>
+        <a href="#" aria-label="Carrinho de compras">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon"
+          >
+            <path
+              d="M6 3a1 1 0 0 0-1 1v2H3a1 1 0 0 0-1 1v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V7a1 1 0 0 0-1-1h-2V4a1 1 0 0 0-1-1H6Zm2 2h8v2H8V5Zm-3 5h14v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V10Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="home-container">
+        <section id="home">
+          <div class="content">
+            <h1>Dev Café, programado para ser seu melhor café</h1>
+            <p>
+              Mergulhe em um ambiente onde o aroma do café de alta qualidade se
+              mistura com a paixão pela tecnologia. Cada xícara é uma nova
+              compilação de sabor, projetada para energizar suas ideias.
+            </p>
+            <a href="#menu" class="btn">Pegue o seu Agora</a>
+          </div>
+        </section>
+      </div>
+      <section class="about" id="about">
+        <h2 class="title">Sobre <span>Nós</span></h2>
+        <div class="row">
+          <div class="container-image">
+            <img
+              src="/img/about-img.jpg"
+              alt="Grãos de café sendo preparados"
+            />
+          </div>
+          <div class="content">
+            <h3>O que faz nosso café especial?</h3>
+            <p>
+              Nossa especialidade é a fusão de métodos artesanais de extração
+              com grãos selecionados das melhores regiões do Brasil. Acreditamos
+              que, assim como um código bem escrito, um café bem preparado pode
+              resolver qualquer problema.
+            </p>
+            <p>
+              Do coado ao espresso, cada bebida é tirada com precisão para
+              garantir uma experiência de sabor única e inspiradora. Venha fazer
+              parte da nossa comunidade!
+            </p>
+            <a href="#" class="btn">Saiba mais</a>
+          </div>
+        </div>
+      </section>
+      <section class="menu" id="menu">
+        <h2 class="title">Nosso <span>Menu</span></h2>
+        <div class="box-container">
+          <figure class="box">
+            <img src="/img/menu-1.png" alt="Café Coado" />
+            <figcaption>
+              <h3>Café Coado</h3>
+              <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+              <a href="#" class="btn">Adicionar ao carrinho</a>
+            </figcaption>
+          </figure>
+          <figure class="box">
+            <img src="/img/menu-2.png" alt="Café Latte" />
+            <figcaption>
+              <h3>Café Latte</h3>
+              <div class="price">R$ 12,99 <span>R$ 15,99</span></div>
+              <a href="#" class="btn">Adicionar ao carrinho</a>
+            </figcaption>
+          </figure>
+          <figure class="box">
+            <img src="/img/menu-3.png" alt="Cappuccino" />
+            <figcaption>
+              <h3>Cappuccino</h3>
+              <div class="price">R$ 14,99 <span>R$ 18,99</span></div>
+              <a href="#" class="btn">Adicionar ao carrinho</a>
+            </figcaption>
+          </figure>
+          <figure class="box">
+            <img src="/img/menu-4.png" alt="Café Americano" />
+            <figcaption>
+              <h3>Café Americano</h3>
+              <div class="price">R$ 9,99 <span>R$ 11,99</span></div>
+              <a href="#" class="btn">Adicionar ao carrinho</a>
+            </figcaption>
+          </figure>
+          <figure class="box">
+            <img src="/img/menu-5.png" alt="Mocha" />
+            <figcaption>
+              <h3>Mocha</h3>
+              <div class="price">R$ 17,99 <span>R$ 22,99</span></div>
+              <a href="#" class="btn">Adicionar ao carrinho</a>
+            </figcaption>
+          </figure>
+          <figure class="box">
+            <img src="/img/menu-6.png" alt="Frappuccino" />
+            <figcaption>
+              <h3>Frappuccino</h3>
+              <div class="price">R$ 19,99 <span>R$ 24,99</span></div>
+              <a href="#" class="btn">Adicionar ao carrinho</a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="review" id="review">
+        <h2 class="title">Nossos <span>Clientes</span></h2>
+        <div class="box-container">
+          <div class="box">
+            <img src="/img/quote-img.png" alt="símbolo de citação" />
+            <p>
+              O melhor lugar para recarregar as energias e colocar o código em
+              dia. O café é simplesmente incrível e a atmosfera é perfeita para
+              a concentração.
+            </p>
+            <img
+              src="/img/pic-1.png"
+              alt="Foto do cliente João da Silva"
+              class="user"
+            />
+            <h3>João da Silva</h3>
+            <div class="stars">★★★★☆</div>
+          </div>
+          <div class="box">
+            <img src="/img/quote-img.png" alt="símbolo de citação" />
+            <p>
+              Finalmente um café que entende a gente! Ambiente acolhedor, wi-fi
+              de qualidade e um café que te faz sentir capaz de resolver
+              qualquer bug.
+            </p>
+            <img
+              src="/img/pic-2.png"
+              alt="Foto da cliente Maria"
+              class="user"
+            />
+            <h3>Maria do Like</h3>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="box">
+            <img src="/img/quote-img.png" alt="símbolo de citação" />
+            <p>
+              Ambiente perfeito para trabalhar e fazer networking. O café coado
+              na hora é um diferencial que me faz voltar sempre. Recomendo a
+              todos da área de TI!
+            </p>
+            <img
+              src="/img/pic-3.png"
+              alt="Foto do cliente Pedro Post"
+              class="user"
+            />
+            <h3>Pedro Post</h3>
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+      </section>
+      <section class="address" id="address">
+        <h2 class="title">Nosso <span>Endereço</span></h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.518923985124!2d-51.16223298554261!3d-23.32782398485236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb435a28b5b29d%3A0x2478a364996b162a!2sAv.%20Higien%C3%B3polis%2C%201701%20-%20Jardim%20Higienopolis%2C%20Londrina%20-%20PR%2C%2086015-010!5e0!3m2!1spt-BR!2sbr!4v1628100000000!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="share">
+        <a href="#" aria-label="LinkedIn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon"
+          >
+            <path
+              d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14ZM8 10H6v7h2v-7Zm-1-2a1 1 0 1 0 0-2a1 1 0 0 0 0 2Zm11 4.25c0-2.07-1.35-3.25-3-3.25c-1.65 0-2.5 1.18-2.5 1.18V10H11v7h2.5v-3.75c0-.9.25-1.75 1.25-1.75s1.25.85 1.25 1.75V17H18v-4.75Z"
+            />
+          </svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon"
+          >
+            <path
+              d="M12 2c-2.72 0-3.06.01-4.12.06c-1.06.05-1.79.22-2.42.47c-.64.25-1.17.59-1.71 1.14c-.54.54-.89 1.07-1.14 1.71c-.25.63-.42 1.36-.47 2.42C2.01 8.94 2 9.28 2 12s.01 3.06.06 4.12c.05 1.06.22 1.79.47 2.42c.25.64.59 1.17 1.14 1.71c.54.54 1.07.89 1.71 1.14c.63.25 1.36.42 2.42.47C8.94 21.99 9.28 22 12 22s3.06-.01 4.12-.06c1.06-.05 1.79-.22 2.42-.47c.64-.25 1.17-.59 1.71-1.14c.54-.54.89-1.07-1.14-1.71c.25-.63.42-1.36.47-2.42c.05-1.06.06-1.4.06-4.12s-.01-3.06-.06-4.12c-.05-1.06-.22-1.79-.47-2.42c-.25-.64-.59-1.17-1.14-1.71c-.54-.54-1.07-.89-1.71-1.14c-.63-.25-1.36-.42-2.42-.47C15.06 2.01 14.72 2 12 2Zm0 2c2.67 0 2.98.01 4.04.06c.98.04 1.5.21 1.84.34c.42.16.72.36.96.6c.24.24.44.54.6.96c.13.34.3.86.34 1.84c.05 1.06.06 1.37.06 4.04s-.01 2.98-.06 4.04c-.04.98-.21 1.5-.34 1.84c-.16.42-.36.72-.6.96c-.24.24-.54.44-.96.6c-.34.13-.86.3-1.84.34c-1.06.05-1.37.06-4.04.06s-2.98-.01-4.04-.06c-.98-.04-1.5-.21-1.84-.34c-.42-.16-.72-.36-.96-.6c-.24-.24-.44-.54-.6-.96c-.13-.34-.3-.86-.34-1.84C4.01 14.98 4 14.67 4 12s.01-2.98.06-4.04c.04-.98.21 1.5.34-1.84c.16-.42.36.72.6-.96c.24.24.54.44.96-.6c.34-.13.86-.3 1.84-.34C9.02 4.01 9.33 4 12 4Zm0 3c-2.76 0-5 2.24-5 5s2.24 5 5 5s5-2.24 5-5s-2.24-5-5-5Zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3s3 1.34 3 3s-1.34 3-3 3Zm5.5-8.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5s1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5Z"
+            />
+          </svg>
+        </a>
+      </div>
+      <div class="credits">
+        <p>
+          Feito com 🤎 por Diego Gimenez Silvino. Baseado no design de
+          <a
+            href="https://www.youtube.com/@Mr.WebDesignerOfficial"
+            target="_blank"
+            >Mr. Web Designer</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
