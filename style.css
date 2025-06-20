@@ -15,7 +15,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  /* Removido text-transform global para evitar conflitos */
   font-family: "Roboto", sans-serif;
   transition: 0.2s linear;
 }
@@ -71,13 +70,13 @@ section {
   font-size: 4rem;
   color: var(--main-color);
   text-align: center;
-  text-transform: uppercase; /* <-- REGRA CORRIGIDA AQUI */
+  text-transform: uppercase; 
   margin-bottom: 4rem;
 }
 
 .title span {
   color: #fff;
-  text-transform: uppercase; /* <-- E AQUI TAMBÉM */
+  text-transform: uppercase; 
 }
 
 /* ------------------- */
@@ -269,7 +268,7 @@ section {
 .menu .box-container .box:hover {
   background-color: #fff;
 }
-/* ---- CORREÇÃO DO HOVER AQUI ---- */
+
 .menu .box-container .box:hover h3,
 .menu .box-container .box:hover .price {
   color: var(--black);
